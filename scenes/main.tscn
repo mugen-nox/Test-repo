@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://l5aylpnyp6w3"]
 
 [ext_resource type="Script" uid="uid://blrtvrwaiplsc" path="res://scripts/player.gd" id="1_0wfyh"]
-[ext_resource type="Texture2D" uid="uid://egawximf87bf" path="res://assets/icon.svg" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://egawximf87bf" path="res://assets/icon.svg" id="2_0wfyh"]
 
 [node name="main" type="Node2D" unique_id=1935282727]
 
@@ -11,4 +11,7 @@ script = ExtResource("1_0wfyh")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=2087128195]
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=2050334327]
-texture = ExtResource("2_sugp2")
+texture = ExtResource("2_0wfyh")
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=194154349]
+position_smoothing_enabled = true
