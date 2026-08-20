@@ -1,7 +1,5 @@
 extends CharacterBody2D
 
-#This is secret message!!!!!!
-#second prototype
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
